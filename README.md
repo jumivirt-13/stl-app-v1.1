@@ -4,6 +4,15 @@ ArcGIS Experience Builder custom widget (SceneView) that exports the current map
 as a 3D-printable STL, including terrain, buildings/layers, labels, raster
 contour bands, and disaster-related overlays.
 
+## Live demo
+
+https://jumivirt-13.github.io/stl-app-v1.1/
+
+The deployed static app is served from the repository root (`index.html`,
+`web.config`, `service-worker.js`, `cdn/3/`). The widget source remains at the
+top level (`src/`, `config.json`, `manifest.json`, `icon.svg`) for installing
+into Experience Builder.
+
 ## Features
 
 - Terrain draped meshes with high-resolution adaptive refinement.
